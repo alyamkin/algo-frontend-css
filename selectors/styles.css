@@ -1,0 +1,15 @@
+/* #red {
+  color: red;
+}
+
+a[href*='www.alyamkin.ca'] {
+  color: green;
+} */
+
+/* footer > p {
+  color: red;
+} */
+
+h2 ~ a {
+  color: red;
+}
