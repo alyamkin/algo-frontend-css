@@ -1,0 +1,36 @@
+div {
+  background-color: lightblue;
+  width: 10%;
+  height: 6em;
+  border-radius: 12px;
+  padding: 12px;
+  margin: 4em;
+  /* transition-property: width;
+  transition-duration: 2s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 1s; */
+  /* transition: width 1s ease 1s, transform 1s ease 0s; */
+  /* animation-name: move;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+  animation-direction: reverse;
+  animation-iteration-count: 2;
+  animation-play-state: running;
+  animation-timing-function: ease; */
+  animation: move 3s forwards reverse 2 running;
+}
+
+/* div:hover {
+  width: 50%;
+  transform: rotate(180deg);
+} */
+
+@keyframes move {
+  50% {
+    transform: translate(200px, 0px);
+  }
+
+  100% {
+    transform: translate(400px, 400px);
+  }
+}
